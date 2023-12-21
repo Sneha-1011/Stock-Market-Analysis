@@ -1,0 +1,5 @@
+library(qcc)
+data<-read.csv(file="C:\\Users\\SM CORPORATES\\OneDrive\\Desktop\\DCS - SEM 3\\R PROJECT\\2020-22.csv", header=TRUE)
+qcc(data = diameter[1:20, ], type = "xbar")
+qcc(data = diameter[1:20, ], type = "R")
+qcc(data = diameter[1:20, ], type = "S")
